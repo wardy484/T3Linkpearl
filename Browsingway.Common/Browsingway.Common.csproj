@@ -19,7 +19,7 @@
 	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	  </PackageReference>
 	  <PackageReference Include="FlatSharp.Runtime" Version="7.9.0" />
-	  <PackageReference Include="SharedMemory" Version="2.3.2" />
+	  <PackageReference Include="SharedMemory" Version="2.3.3" />
 	</ItemGroup>
 	<ItemGroup>
 	  <FlatSharpSchema Include="FlatBuffers\*.fbs" />
