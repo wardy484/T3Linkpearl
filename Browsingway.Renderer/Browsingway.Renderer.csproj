@@ -41,14 +41,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CefSharp.Common.NETCore" Version="143.0.90">
+		<PackageReference Include="CefSharp.Common.NETCore" Version="154.0.340">
 			<ExcludeAssets>runtime;contentFiles;native</ExcludeAssets>
 		</PackageReference>
-		<PackageReference Include="CefSharp.OffScreen.NETCore" Version="143.0.90" PrivateAssets="none">
+		<PackageReference Include="CefSharp.OffScreen.NETCore" Version="154.0.340" PrivateAssets="none">
 			<ExcludeAssets>contentFiles;native</ExcludeAssets>
 			<IncludeAssets>runtime; compile; build; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="SharedMemory" Version="2.3.2" />
+		<PackageReference Include="SharedMemory" Version="2.3.4" />
 	</ItemGroup>
 
 	<Target Name="WinRes" AfterTargets="PostBuildEvent">
